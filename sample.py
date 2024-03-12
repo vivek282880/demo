@@ -1,11 +1,9 @@
-import nest_asyncio
-import os
+
 from llama_index.readers.github import GithubRepositoryReader
 from llama_index.readers.github import GithubClient
-nest_asyncio.apply()
 
-os.environ['GITHUB_TOKEN'] = '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'
-github_token = "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"
+
+github_token = "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"
 
 owner = "vivek282880"
 repo = "demo"
