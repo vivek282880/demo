@@ -16,4 +16,4 @@ documents = GithubRepositoryReader(
     verbose=False
 ).load_data(branch=branch)
 
-print(documents)
+#print(documents)
