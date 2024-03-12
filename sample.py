@@ -3,7 +3,7 @@ from llama_index.readers.github import GithubRepositoryReader
 from llama_index.readers.github import GithubClient
 
 
-github_token = "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"
+github_token = "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"
 
 owner = "vivek282880"
 repo = "demo"
